@@ -1,0 +1,88 @@
+.footer-container{
+    /* width: 100%; */
+    background-color: rgb(44, 14, 73);
+    color: white;
+    padding: 30px;
+    margin: 0;
+    
+}
+
+.footer-content{
+   width: 70%;
+   margin: 0px auto; 
+   display: flex;
+   justify-content: space-between;
+   /* background-color: red; */
+   /* align-items: center; */
+}
+.box-2 form{
+    display: flex;
+    flex-direction: column;
+}
+.box-2 form input{
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.box-2 form input:active,.box-2 form input:focus{
+    outline:2px solid rgb(242, 19, 19);
+}
+
+.box-2 button{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    /* border-radius: 5px; */
+    margin-top: 30px;
+    color: blueviolet;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.box-2 button:active{
+    /* font-size: 20px; */
+    /* padding: 12px 17px; */
+    transform: scale(1.05);
+
+}
+
+.follow-icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.app-icons{
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+
+.box-4 a{
+     color: white;
+}
+
+.footer-content hr{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .footer-content{
+        flex-direction: column;
+        /* align-items: center; */
+        text-align: center;
+        gap: 3px;
+        justify-content: none;
+    }
+
+    /* .footer-box{
+        margin: 10px 0;
+    } */
+    .footer-content hr{
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+}

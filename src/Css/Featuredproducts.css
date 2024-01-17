@@ -1,0 +1,30 @@
+/* .load{
+    font-size:50px;
+
+} */
+
+.featurecontainer{
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    width: 100%;
+    /* padding: 5px 0; */
+}
+
+.feature-item{
+    width: 70%;
+    margin: 0px auto;
+    /* background-color: red; */
+    padding: 20px;
+}
+.loading{
+    text-align: center;
+}
+.tag1{
+    margin: 5px 0;
+    font-size:20px;
+
+}
+.feature-head{
+    font-size: 26px;
+    font-weight: 800;
+}
