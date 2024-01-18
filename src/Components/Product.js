@@ -4,21 +4,23 @@ import "../Css/product.css";
 
 const Product = (props) => {
   const { category, id, image, name, price } = props; // Corrected destructuring
-  console.log(props);
-  
+
   return (
-    <div className="final-feature-container">
+    
       <Link to={`/singleproduct/${id}`} className="singleproduct">
-        <div className="feature-img-box">
-          <div className="imgtype">{category}</div>
-          <img src={image} alt={name} className="feature-img" />
+        <div>
+        <div className="imgbox">
+            <div className="imgtype">{category}</div>
+            <img src={image} alt={name} className="feature-pro-img" />
+
         </div>
-        <div className="feature-item-detail">
-          <div className="item-name">{name}</div>
-          <div className="item-price">{price}</div>
+        <div className="pro-details">
+            <div className="pro-name">{name}</div>
+            <div className="pro-price">{price}</div>
+        </div>
         </div>
       </Link>
-    </div>
+    
   );
 };
 
