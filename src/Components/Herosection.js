@@ -9,7 +9,7 @@ export default function Herosection(props){
                     <div className="hero-section-text">
                     <p>Welcome to</p>
                     <h1>{props.name}</h1>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ex dolore voluptate dignissimos id ut rerum cum voluptatibus iusto corrupti obcaecati necessitatibus deserunt illo totam harum eveniet sed, ipsum nostrum.</div>
+                    <div>Discover more and shop better at our online haven where trends and impeccable taste collide, ensuring you stand out in every crowd with our handpicked selections.</div>
                     <Link to='/Products'>
                         <button>Shop Now</button>
                     </Link>
@@ -24,7 +24,7 @@ export default function Herosection(props){
 
                     <h1>{props.name}</h1>
 
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ex dolore voluptate dignissimos id ut rerum cum voluptatibus iusto corrupti obcaecati necessitatibus deserunt illo totam harum eveniet sed, ipsum nostrum.</div>
+                    <div>Discover more and shop better at our online haven where trends and impeccable taste collide, ensuring you stand out in every crowd with our handpicked selections.</div>
 
 
                     <Link to='/Products'>

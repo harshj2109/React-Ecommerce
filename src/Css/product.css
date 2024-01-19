@@ -24,8 +24,8 @@
     position: absolute;
     color: red;
     border: 2px solid red;
-    top: 5px;
-    right: 5px;
+    top: 10px;
+    left: 5px;
     padding: 5px;
     border-radius: 10px;
     text-transform: capitalize;

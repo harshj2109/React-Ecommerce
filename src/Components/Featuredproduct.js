@@ -7,7 +7,7 @@ import Product from "./Product";
 
 export default function Featuredproduct() {
   const { isLoading, featuresProducts } = useProductContext();
-  console.log(featuresProducts[0])
+  
 
 
 
