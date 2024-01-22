@@ -5,6 +5,11 @@ import "../Css/product.css";
 const Product = (props) => {
   const { category, id, image, name, price } = props; // Corrected destructuring
 
+  const inrprice = Intl.NumberFormat("en-IN",{
+                style:"currency",
+                currency:"INR",
+                maximumFractionDigits:2,
+              }).format(price/100)
   return (
     
       <Link to={`/singleproduct/${id}`} className="singleproduct">
@@ -16,7 +21,7 @@ const Product = (props) => {
         </div>
         <div className="pro-details">
             <div className="pro-name">{name}</div>
-            <div className="pro-price">{price}</div>
+            <div className="pro-price">{inrprice}</div>
         </div>
         </div>
       </Link>

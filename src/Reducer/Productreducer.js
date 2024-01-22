@@ -28,8 +28,30 @@ const Productreducer = (state,action)=>{
                 featuresProducts:[featureData],
             }
             break;
-
         
+        case "SET_SINGLEPRODUCT_LOADING":
+            return{
+                ...state,
+                isSingleLoading:true,
+            }
+            break;
+        case "SET_SINGLEPRODUCT_LOADED":
+            
+
+            return{
+                ...state,
+                isSingleLoading:false,
+                singleproduct : action.payload,
+            }
+            break
+        
+        case "SET_SINGLEPRODUCT_ERR":
+            return{
+                ...state,
+                isError:true,
+            }
+            break
+            
         default:
             return state;
     }

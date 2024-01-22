@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="footer-box box-2">
                 <h4>Subscribe to get <br /> important updates</h4>
                 <form action="https://formspree.io/f/mnqeqpvb" method='POST'>
-                    <input type="email" name="email" id="" placeholder='Email Address' required />
+                    <input type="email" name="email" id="" placeholder='Email' required />
                     <button type="submit">Subscribe</button>
                 </form>
             </div>

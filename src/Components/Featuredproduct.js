@@ -24,8 +24,10 @@ export default function Featuredproduct() {
     <>
       <div className="featurecontainer">
         <div className="feature-item">
+          <div className="feature-item-box">
           <div className="tag1">Check Now!</div>
           <div className="feature-head">Our Feature Service</div>
+          </div>
 
           <div className="final-feature-container">
                 
