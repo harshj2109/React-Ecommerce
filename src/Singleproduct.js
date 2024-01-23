@@ -7,6 +7,7 @@ import Singleproductimg from './Components/Singleproductimg';
 import { HiTruck } from "react-icons/hi2";
 import { ImLoop } from "react-icons/im";
 import { FaShieldAlt } from "react-icons/fa";
+import Star from './Components/Star';
 const Singleproduct = () => {
 
   const {id} = useParams();
@@ -26,6 +27,7 @@ const Singleproduct = () => {
     stock,
     image
   } = singleproduct
+   
 
   const correctedprice = Intl.NumberFormat('en-IN',{
     style:"currency",
@@ -50,7 +52,6 @@ const Singleproduct = () => {
 
 
 
-
     <div className='single-item-container'>
 
       <div className="single-item-img">
@@ -62,7 +63,7 @@ const Singleproduct = () => {
           {name}
         </div>
         <div className="single-item-reviews">
-          {stars} <span className="reviews">({reviews} customers reviewed)</span>
+          <Star star = {stars} review={reviews}/>
         </div>
         <div className="single-product-fake-price">
           <span className="price-tag">MRP:</span> <del>{correctedprice}</del>

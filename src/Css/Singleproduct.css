@@ -4,8 +4,6 @@
     font-size: 20px;
     /* width: 90%; */
     padding-left: 2.5%;
-
-
 }
 
 .back-home{
@@ -28,8 +26,8 @@
 }
 .single-item-img{
     width: 50%;
-    height: 100vh;
-    /* background-color: red; */
+    height: auto;
+    /* padding: 0px 10px ; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,15 +53,13 @@
 }
 
 .company-feature-box{
-    /* background-color: red; */
-    /* padding: 10px; */
     text-align: center;
 }
 
 .single-item-name{
     text-transform: capitalize;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 700;
+    font-size: 25px;
 }
 
 .single-product-price{
@@ -112,6 +108,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 20px 0;
     }
     .single-item-details{
         width: auto;
