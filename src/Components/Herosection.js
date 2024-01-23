@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import '../Css/Herosection.css'
 export default function Herosection(props){
     return(
@@ -10,9 +10,9 @@ export default function Herosection(props){
                     <p>Welcome to</p>
                     <h1>{props.name}</h1>
                     <div>Discover more and shop better at our online haven where trends and impeccable taste collide, ensuring you stand out in every crowd with our handpicked selections.</div>
-                    <Link to='/Products'>
+                    <NavLink to='/Products'>
                         <button>Shop Now</button>
-                    </Link>
+                    </NavLink>
                     </div>
 
 
