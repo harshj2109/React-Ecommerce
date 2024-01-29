@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink,Link } from "react-router-dom";
 import '../Css/Herosection.css'
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+
+
 export default function Herosection(props){
+
+    // useEffect(()=>{
+    //     AOS.init()
+    // },[])
     return(
-        <div className="container">
+        <div className="container" >
             <div className="hero-section">
                 <div className="hero-section-flex">
                     <div className="hero-section-text">

@@ -59,7 +59,9 @@ const Appprovider = ({children})=>{
 
 
     return (
-        <Appcontext.Provider value={{ ...state , getsingleproduct}}>{children}</Appcontext.Provider>
+        <Appcontext.Provider value={{ ...state , getsingleproduct}}>
+            {children}
+        </Appcontext.Provider>
     )
     
 }

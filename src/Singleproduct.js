@@ -8,6 +8,7 @@ import { HiTruck } from "react-icons/hi2";
 import { ImLoop } from "react-icons/im";
 import { FaShieldAlt } from "react-icons/fa";
 import Star from './Components/Star';
+import Details from './Components/Details';
 const Singleproduct = () => {
 
   const {id} = useParams();
@@ -59,6 +60,7 @@ const Singleproduct = () => {
       </div>
 
       <div className="single-item-details">
+
         <div className="single-item-name">
           {name}
         </div>
@@ -104,6 +106,9 @@ const Singleproduct = () => {
           <div className="single-product-brand">
             Company: {company}
           </div>
+          <hr className='single-box-hr'/>
+
+          {stock>0 ? <Details products = {singleproduct}/> : <div>Item Not Available</div>}
         
       </div>
     </div>

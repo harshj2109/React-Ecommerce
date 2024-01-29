@@ -6,9 +6,6 @@ const Singleproductimg = ({img = [{url:""}]}) => {
 
 const [mainimg,setmainimg] = useState(img[0])
 
-
-
-
   return (
     <div className="single-product-img-container">
       <div className="four-img">

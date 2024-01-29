@@ -1,0 +1,15 @@
+.all-product-context{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.all-avail-pro{
+    flex: 80%;
+    background-color: red;
+}
+
+.filter-products{
+    flex: 20%;
+    background-color: rebeccapurple;
+}
